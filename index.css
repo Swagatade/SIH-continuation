@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body{
+    height: 100%;
+    height: 100vh;
+    background: url('3517454.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    /* justify-content: space-around; */
+    .left-panel{
+        width: 45%;
+    }
+    .right-panel{
+        width: 55%;
+        height: 100%;
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  .header-logo{
+    padding-top: 20px;
+    padding-left: 60px;
+  }
+  
+  .wrapper {
+    width: -moz-fit-content;
+    width: fit-content;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .user-info{
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .academic-info{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .edu-info{
+        padding-inline: 5px;
+        width: 170px;
+        height: 45px;
+        padding-left: 10px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        #birthDay{
+            width: 100%;
+        }
+    }
+  }
+  .wrapper .input-box {
+    position: relative;
+    width: 550px;
+    height: 45px;
+    margin: 30px 0;
+  }
+  
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+  
+  .input-box input::placeholder {
+    color: black;
+  }
+  
+  .input-box box-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  .divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  
+  .remember-forget label input {
+    margin-right: 3px;
+  }
+  
+  .remember-forget a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .remember-forget a:hover {
+    text-decoration: underline;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .wrapper .register-link {
+    font-size: 14,5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    .help-line{
+        padding-top: 8px;
+    }
+  }
+  
+  .register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
